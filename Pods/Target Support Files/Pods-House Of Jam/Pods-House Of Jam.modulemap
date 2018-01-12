@@ -1,0 +1,6 @@
+framework module Pods_House_Of_Jam {
+  umbrella header "Pods-House Of Jam-umbrella.h"
+
+  export *
+  module * { export * }
+}
