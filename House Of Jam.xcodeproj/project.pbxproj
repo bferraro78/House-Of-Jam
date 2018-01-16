@@ -253,6 +253,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B16F525200E93C0001ECFC5 /* User Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A73CB1F435CD300D28FF8 /* ViewController.h */,
+				FF7A73CC1F435CD300D28FF8 /* ViewController.m */,
+				FF7A73A41F435CD300D28FF8 /* editProfileController.h */,
+				FF7A73A51F435CD300D28FF8 /* editProfileController.m */,
+				FF7A73BB1F435CD300D28FF8 /* SelectWinnerController.h */,
+				FF7A73BC1F435CD300D28FF8 /* SelectWinnerController.m */,
+				FF7A73C51F435CD300D28FF8 /* SignUpController.h */,
+				FF7A73C61F435CD300D28FF8 /* SignUpController.m */,
+				FF7A73A71F435CD300D28FF8 /* InviteFriendsController.h */,
+				FF7A73A81F435CD300D28FF8 /* InviteFriendsController.m */,
+				FF7A73BD1F435CD300D28FF8 /* SeshController.h */,
+				FF7A73BE1F435CD300D28FF8 /* SeshController.m */,
+				FF7A73BF1F435CD300D28FF8 /* SeshLeisureController.h */,
+				FF7A73C01F435CD300D28FF8 /* SeshLeisureController.m */,
+				FF4FF9371F71AFC300FA60AA /* VoteEntryController.h */,
+				FF4FF9361F71AFC300FA60AA /* VoteEntryController.m */,
+				6B16F52B200E9A1C001ECFC5 /* Map Views */,
+				6B16F52A200E9A02001ECFC5 /* InfoViews */,
+				6B16F527200E94AE001ECFC5 /* Log In Views */,
+				FFBFBFF91F67045600DEB6C0 /* ProfileView */,
+			);
+			name = "User Views";
+			sourceTree = "<group>";
+		};
+		6B16F526200E943C001ECFC5 /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				6BB059F11FE1A9510096E91A /* MarketplaceController.h */,
+				6BB059EF1FE1A94C0096E91A /* MarketplaceController.m */,
+			);
+			name = Marketplace;
+			sourceTree = "<group>";
+		};
+		6B16F527200E94AE001ECFC5 /* Log In Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A73A01F435CD300D28FF8 /* CreateAccountController.h */,
+				FF7A73A11F435CD300D28FF8 /* CreateAccountController.m */,
+				FF7A73A91F435CD300D28FF8 /* LogInController.h */,
+				FF7A73AA1F435CD300D28FF8 /* LogInController.m */,
+			);
+			name = "Log In Views";
+			sourceTree = "<group>";
+		};
+		6B16F528200E9719001ECFC5 /* ObjectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A73981F435CD300D28FF8 /* Account.h */,
+				FF7A73991F435CD300D28FF8 /* Account.m */,
+				6B0B6ACF1FEDEBE800E6F39F /* LocationManager.h */,
+				6B0B6AD01FEDEBF300E6F39F /* LocationManager.m */,
+				FF7A73C31F435CD300D28FF8 /* Session.h */,
+				FF7A73C41F435CD300D28FF8 /* Session.m */,
+				FF4FF93F1F71B02900FA60AA /* VideoEntry.h */,
+				FF4FF9401F71B02900FA60AA /* VideoEntry.m */,
+			);
+			name = ObjectClasses;
+			sourceTree = "<group>";
+		};
+		6B16F529200E99D3001ECFC5 /* MenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				FF84C1431F98E5C200C09A82 /* MainMenuRight.h */,
+				FF84C1411F98E5BA00C09A82 /* MainMenuRight.m */,
+				FF4FF9351F71AFB300FA60AA /* MainMenuController.h */,
+				FF4FF9331F71AFAC00FA60AA /* MainMenuController.m */,
+			);
+			name = MenuViews;
+			sourceTree = "<group>";
+		};
+		6B16F52A200E9A02001ECFC5 /* InfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F51401FB252EC00E24687 /* InfoViewController.h */,
+				6B3F51411FB252F900E24687 /* InfoViewController.m */,
+				6B4FC01A1FB9FD58007B32F1 /* MonthlyRewardsController.h */,
+				6B4FC0181FB9FD4B007B32F1 /* MonthlyRewardsController.m */,
+				6B82FAAE1FD649E800E0CFA0 /* SearchView.h */,
+				6B82FAAF1FD649F400E0CFA0 /* SearchView.m */,
+			);
+			name = InfoViews;
+			sourceTree = "<group>";
+		};
+		6B16F52B200E9A1C001ECFC5 /* Map Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BF4B21A1FD8542700D88FFF /* FilterView.h */,
+				6BF4B2181FD8541D00D88FFF /* FilterView.m */,
+			);
+			name = "Map Views";
+			sourceTree = "<group>";
+		};
+		6B16F52C200E9BEC001ECFC5 /* Alert/Message/Banners */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FF94F1F71B08900FA60AA /* AlertView.h */,
+				FF4FF94E1F71B08900FA60AA /* AlertView.m */,
+				FFECEA2B1F86FCF10026E8D1 /* DailyMessage.h */,
+				FFECEA2C1F86FCF10026E8D1 /* DailyMessage.m */,
+				FF93BA061F8DAE5000C5BCB3 /* NavigationView.h */,
+				FF93BA071F8DAE5A00C5BCB3 /* NavigationView.m */,
+			);
+			name = Alert/Message/Banners;
+			sourceTree = "<group>";
+		};
 		6BB059F21FE1B0710096E91A /* MarketPlacePictures */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,71 +435,25 @@
 			isa = PBXGroup;
 			children = (
 				FF6010611F439ADC00DF2220 /* Jam.entitlements */,
+				FF7A739A1F435CD300D28FF8 /* AppDelegate.h */,
+				FF7A739B1F435CD300D28FF8 /* AppDelegate.m */,
+				6B16F525200E93C0001ECFC5 /* User Views */,
+				6B16F526200E943C001ECFC5 /* Marketplace */,
+				6B16F528200E9719001ECFC5 /* ObjectClasses */,
+				6B16F529200E99D3001ECFC5 /* MenuViews */,
+				FF848DAB1F58595100EDDC8B /* TutorialGroup */,
+				6B16F52C200E9BEC001ECFC5 /* Alert/Message/Banners */,
+				FFAB934B1F7D8615004E4AA7 /* Constants/Encrypt/DB */,
 				FFC622A31F72E9B4004DE1E6 /* Images */,
 				FF4FF9511F71B0B200FA60AA /* Fonts */,
 				FF7A739D1F435CD300D28FF8 /* Base.lproj */,
-				FF7A739A1F435CD300D28FF8 /* AppDelegate.h */,
-				FF7A739B1F435CD300D28FF8 /* AppDelegate.m */,
-				FF7A73CB1F435CD300D28FF8 /* ViewController.h */,
-				FF7A73CC1F435CD300D28FF8 /* ViewController.m */,
-				6BB059F11FE1A9510096E91A /* MarketplaceController.h */,
-				6BB059EF1FE1A94C0096E91A /* MarketplaceController.m */,
-				6BF4B21A1FD8542700D88FFF /* FilterView.h */,
-				6BF4B2181FD8541D00D88FFF /* FilterView.m */,
-				6B82FAAE1FD649E800E0CFA0 /* SearchView.h */,
-				6B82FAAF1FD649F400E0CFA0 /* SearchView.m */,
-				FF7A73A41F435CD300D28FF8 /* editProfileController.h */,
-				FF7A73A51F435CD300D28FF8 /* editProfileController.m */,
-				FF7A73BB1F435CD300D28FF8 /* SelectWinnerController.h */,
-				FF7A73BC1F435CD300D28FF8 /* SelectWinnerController.m */,
-				FF7A73C51F435CD300D28FF8 /* SignUpController.h */,
-				FF7A73C61F435CD300D28FF8 /* SignUpController.m */,
-				FF7A73A71F435CD300D28FF8 /* InviteFriendsController.h */,
-				FF7A73A81F435CD300D28FF8 /* InviteFriendsController.m */,
-				FF7A73BD1F435CD300D28FF8 /* SeshController.h */,
-				FF7A73BE1F435CD300D28FF8 /* SeshController.m */,
-				FF7A73BF1F435CD300D28FF8 /* SeshLeisureController.h */,
-				FF7A73C01F435CD300D28FF8 /* SeshLeisureController.m */,
-				FF4FF9371F71AFC300FA60AA /* VoteEntryController.h */,
-				FF4FF9361F71AFC300FA60AA /* VoteEntryController.m */,
-				FF84C1431F98E5C200C09A82 /* MainMenuRight.h */,
-				FF84C1411F98E5BA00C09A82 /* MainMenuRight.m */,
-				FF4FF9351F71AFB300FA60AA /* MainMenuController.h */,
-				FF4FF9331F71AFAC00FA60AA /* MainMenuController.m */,
-				6B3F51401FB252EC00E24687 /* InfoViewController.h */,
-				6B3F51411FB252F900E24687 /* InfoViewController.m */,
-				6B4FC01A1FB9FD58007B32F1 /* MonthlyRewardsController.h */,
-				6B4FC0181FB9FD4B007B32F1 /* MonthlyRewardsController.m */,
-				FF7A73A01F435CD300D28FF8 /* CreateAccountController.h */,
-				FF7A73A11F435CD300D28FF8 /* CreateAccountController.m */,
-				FF7A73A91F435CD300D28FF8 /* LogInController.h */,
-				FF7A73AA1F435CD300D28FF8 /* LogInController.m */,
-				FFBFBFF91F67045600DEB6C0 /* ProfileView */,
-				FF848DAB1F58595100EDDC8B /* TutorialGroup */,
-				FF7A73981F435CD300D28FF8 /* Account.h */,
-				FF7A73991F435CD300D28FF8 /* Account.m */,
-				FF4FF94F1F71B08900FA60AA /* AlertView.h */,
-				FF4FF94E1F71B08900FA60AA /* AlertView.m */,
-				FFECEA2B1F86FCF10026E8D1 /* DailyMessage.h */,
-				FFECEA2C1F86FCF10026E8D1 /* DailyMessage.m */,
-				FF82339D1F75A7EF00003585 /* ImageVideoUploader.h */,
-				FF82339B1F75A7DD00003585 /* ImageVideoUploader.m */,
-				6B0B6ACF1FEDEBE800E6F39F /* LocationManager.h */,
-				6B0B6AD01FEDEBF300E6F39F /* LocationManager.m */,
-				FF93BA061F8DAE5000C5BCB3 /* NavigationView.h */,
-				FF93BA071F8DAE5A00C5BCB3 /* NavigationView.m */,
-				FF7A73C31F435CD300D28FF8 /* Session.h */,
-				FF7A73C41F435CD300D28FF8 /* Session.m */,
-				FF4FF93F1F71B02900FA60AA /* VideoEntry.h */,
-				FF4FF9401F71B02900FA60AA /* VideoEntry.m */,
 				FF7A73AC1F435CD300D28FF8 /* Main.storyboard */,
 				FF8F98DF1F88020D004419C5 /* LaunchScreen.storyboard */,
 				FF8F98DC1F87FF18004419C5 /* LaunchController.h */,
 				FF8F98DD1F87FF18004419C5 /* LaunchController.m */,
-				FF7A73EB1F435ECF00D28FF8 /* Assets.xcassets */,
 				FF7A73A61F435CD300D28FF8 /* Info.plist */,
 				FF7A73AB1F435CD300D28FF8 /* main.m */,
-				FFAB934B1F7D8615004E4AA7 /* Constants/Encrypt/DB */,
+				FF7A73EB1F435ECF00D28FF8 /* Assets.xcassets */,
 				FF5C9F821EFC2B700041884F /* Supporting Files */,
 			);
 			path = Jam;
@@ -445,10 +507,12 @@
 			children = (
 				FFECEA281F86FCE70026E8D1 /* Constants.h */,
 				FFECEA291F86FCE70026E8D1 /* Constants.m */,
-				FFECEA251F86FCD50026E8D1 /* EncryptExt.h */,
-				FFECEA261F86FCD60026E8D1 /* EncryptExt.m */,
 				6BE04CD51FDDD54600CF8BD4 /* DataBaseCalls.h */,
 				6BE04CD31FDDD53F00CF8BD4 /* DataBaseCalls.m */,
+				FFECEA251F86FCD50026E8D1 /* EncryptExt.h */,
+				FFECEA261F86FCD60026E8D1 /* EncryptExt.m */,
+				FF82339D1F75A7EF00003585 /* ImageVideoUploader.h */,
+				FF82339B1F75A7DD00003585 /* ImageVideoUploader.m */,
 			);
 			name = Constants/Encrypt/DB;
 			sourceTree = "<group>";
