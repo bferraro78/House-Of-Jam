@@ -144,56 +144,56 @@
 		EE09CC01CC7C60BA360F310F /* Pods-Jam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jam/Pods-Jam.debug.xcconfig"; sourceTree = "<group>"; };
 		FF1251981F884B9A007B9D8E /* dojo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dojo1.jpg; sourceTree = "<group>"; };
 		FF12519C1F894677007B9D8E /* Bonsai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bonsai.png; sourceTree = "<group>"; };
-		FF4FF9301F71AF7900FA60AA /* ProfileVideosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileVideosController.m; path = Jam/ProfileVideosController.m; sourceTree = SOURCE_ROOT; };
-		FF4FF9311F71AF7900FA60AA /* ProfileVideosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileVideosController.h; path = Jam/ProfileVideosController.h; sourceTree = SOURCE_ROOT; };
-		FF4FF9331F71AFAC00FA60AA /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuController.m; path = Jam/MainMenuController.m; sourceTree = SOURCE_ROOT; };
-		FF4FF9351F71AFB300FA60AA /* MainMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainMenuController.h; path = Jam/MainMenuController.h; sourceTree = SOURCE_ROOT; };
-		FF4FF9361F71AFC300FA60AA /* VoteEntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoteEntryController.m; path = Jam/VoteEntryController.m; sourceTree = SOURCE_ROOT; };
-		FF4FF9371F71AFC300FA60AA /* VoteEntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoteEntryController.h; path = Jam/VoteEntryController.h; sourceTree = SOURCE_ROOT; };
-		FF4FF93F1F71B02900FA60AA /* VideoEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoEntry.h; path = Jam/VideoEntry.h; sourceTree = SOURCE_ROOT; };
-		FF4FF9401F71B02900FA60AA /* VideoEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoEntry.m; path = Jam/VideoEntry.m; sourceTree = SOURCE_ROOT; };
-		FF4FF94B1F71B05800FA60AA /* VideoTableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoTableCellController.h; path = Jam/VideoTableCellController.h; sourceTree = SOURCE_ROOT; };
-		FF4FF94C1F71B05800FA60AA /* VideoTableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoTableCellController.m; path = Jam/VideoTableCellController.m; sourceTree = SOURCE_ROOT; };
-		FF4FF94E1F71B08900FA60AA /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertView.m; path = Jam/AlertView.m; sourceTree = SOURCE_ROOT; };
-		FF4FF94F1F71B08900FA60AA /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertView.h; path = Jam/AlertView.h; sourceTree = SOURCE_ROOT; };
+		FF4FF9301F71AF7900FA60AA /* ProfileVideosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileVideosController.m; path = Jam/UserViews/ProfileView/ProfileVideosController.m; sourceTree = SOURCE_ROOT; };
+		FF4FF9311F71AF7900FA60AA /* ProfileVideosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileVideosController.h; path = Jam/UserViews/ProfileView/ProfileVideosController.h; sourceTree = SOURCE_ROOT; };
+		FF4FF9331F71AFAC00FA60AA /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuController.m; path = Jam/MenuViews/MainMenuController.m; sourceTree = SOURCE_ROOT; };
+		FF4FF9351F71AFB300FA60AA /* MainMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainMenuController.h; path = Jam/MenuViews/MainMenuController.h; sourceTree = SOURCE_ROOT; };
+		FF4FF9361F71AFC300FA60AA /* VoteEntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoteEntryController.m; path = Jam/UserViews/VoteEntryController.m; sourceTree = SOURCE_ROOT; };
+		FF4FF9371F71AFC300FA60AA /* VoteEntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoteEntryController.h; path = Jam/UserViews/VoteEntryController.h; sourceTree = SOURCE_ROOT; };
+		FF4FF93F1F71B02900FA60AA /* VideoEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoEntry.h; path = Jam/ObjectClasses/VideoEntry.h; sourceTree = SOURCE_ROOT; };
+		FF4FF9401F71B02900FA60AA /* VideoEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoEntry.m; path = Jam/ObjectClasses/VideoEntry.m; sourceTree = SOURCE_ROOT; };
+		FF4FF94B1F71B05800FA60AA /* VideoTableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoTableCellController.h; path = Jam/UserViews/ProfileView/CustomCell/VideoTableCellController.h; sourceTree = SOURCE_ROOT; };
+		FF4FF94C1F71B05800FA60AA /* VideoTableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoTableCellController.m; path = Jam/UserViews/ProfileView/CustomCell/VideoTableCellController.m; sourceTree = SOURCE_ROOT; };
+		FF4FF94E1F71B08900FA60AA /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertView.m; path = "Jam/Alert-Message-Banners/AlertView.m"; sourceTree = SOURCE_ROOT; };
+		FF4FF94F1F71B08900FA60AA /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertView.h; path = "Jam/Alert-Message-Banners/AlertView.h"; sourceTree = SOURCE_ROOT; };
 		FF4FF95F1F71B0B200FA60AA /* Polo Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Polo Brush.ttf"; sourceTree = "<group>"; };
 		FF5C9F7F1EFC2B700041884F /* House Of Jam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "House Of Jam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6010611F439ADC00DF2220 /* Jam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Jam.entitlements; path = Jam/Jam.entitlements; sourceTree = SOURCE_ROOT; };
-		FF7A73981F435CD300D28FF8 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = Jam/Account.h; sourceTree = SOURCE_ROOT; };
-		FF7A73991F435CD300D28FF8 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = Jam/Account.m; sourceTree = SOURCE_ROOT; };
+		FF7A73981F435CD300D28FF8 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = Jam/ObjectClasses/Account.h; sourceTree = SOURCE_ROOT; };
+		FF7A73991F435CD300D28FF8 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = Jam/ObjectClasses/Account.m; sourceTree = SOURCE_ROOT; };
 		FF7A739A1F435CD300D28FF8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Jam/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		FF7A739B1F435CD300D28FF8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Jam/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		FF7A73A01F435CD300D28FF8 /* CreateAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateAccountController.h; path = Jam/CreateAccountController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73A11F435CD300D28FF8 /* CreateAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateAccountController.m; path = Jam/CreateAccountController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73A41F435CD300D28FF8 /* editProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = editProfileController.h; path = Jam/editProfileController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73A51F435CD300D28FF8 /* editProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = editProfileController.m; path = Jam/editProfileController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73A01F435CD300D28FF8 /* CreateAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateAccountController.h; path = Jam/UserViews/LogInViews/CreateAccountController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73A11F435CD300D28FF8 /* CreateAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateAccountController.m; path = Jam/UserViews/LogInViews/CreateAccountController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73A41F435CD300D28FF8 /* editProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = editProfileController.h; path = Jam/UserViews/editProfileController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73A51F435CD300D28FF8 /* editProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = editProfileController.m; path = Jam/UserViews/editProfileController.m; sourceTree = SOURCE_ROOT; };
 		FF7A73A61F435CD300D28FF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Jam/Info.plist; sourceTree = SOURCE_ROOT; };
-		FF7A73A71F435CD300D28FF8 /* InviteFriendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InviteFriendsController.h; path = Jam/InviteFriendsController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73A81F435CD300D28FF8 /* InviteFriendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InviteFriendsController.m; path = Jam/InviteFriendsController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73A91F435CD300D28FF8 /* LogInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInController.h; path = Jam/LogInController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73AA1F435CD300D28FF8 /* LogInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInController.m; path = Jam/LogInController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73A71F435CD300D28FF8 /* InviteFriendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InviteFriendsController.h; path = Jam/UserViews/InviteFriendsController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73A81F435CD300D28FF8 /* InviteFriendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InviteFriendsController.m; path = Jam/UserViews/InviteFriendsController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73A91F435CD300D28FF8 /* LogInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInController.h; path = Jam/UserViews/LogInViews/LogInController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73AA1F435CD300D28FF8 /* LogInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInController.m; path = Jam/UserViews/LogInViews/LogInController.m; sourceTree = SOURCE_ROOT; };
 		FF7A73AB1F435CD300D28FF8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Jam/main.m; sourceTree = SOURCE_ROOT; };
 		FF7A73AC1F435CD300D28FF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Jam/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		FF7A73B71F435CD300D28FF8 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileController.h; path = Jam/ProfileController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73B81F435CD300D28FF8 /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileController.m; path = Jam/ProfileController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73BB1F435CD300D28FF8 /* SelectWinnerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectWinnerController.h; path = Jam/SelectWinnerController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73BC1F435CD300D28FF8 /* SelectWinnerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectWinnerController.m; path = Jam/SelectWinnerController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73BD1F435CD300D28FF8 /* SeshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeshController.h; path = Jam/SeshController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73BE1F435CD300D28FF8 /* SeshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeshController.m; path = Jam/SeshController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73BF1F435CD300D28FF8 /* SeshLeisureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeshLeisureController.h; path = Jam/SeshLeisureController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73C01F435CD300D28FF8 /* SeshLeisureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeshLeisureController.m; path = Jam/SeshLeisureController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73C31F435CD300D28FF8 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Session.h; path = Jam/Session.h; sourceTree = SOURCE_ROOT; };
-		FF7A73C41F435CD300D28FF8 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Session.m; path = Jam/Session.m; sourceTree = SOURCE_ROOT; };
-		FF7A73C51F435CD300D28FF8 /* SignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpController.h; path = Jam/SignUpController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73C61F435CD300D28FF8 /* SignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpController.m; path = Jam/SignUpController.m; sourceTree = SOURCE_ROOT; };
-		FF7A73C91F435CD300D28FF8 /* TutorialControllerMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialControllerMain.h; path = Jam/TutorialControllerMain.h; sourceTree = SOURCE_ROOT; };
-		FF7A73CA1F435CD300D28FF8 /* TutorialControllerMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialControllerMain.m; path = Jam/TutorialControllerMain.m; sourceTree = SOURCE_ROOT; };
-		FF7A73CB1F435CD300D28FF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Jam/ViewController.h; sourceTree = SOURCE_ROOT; };
-		FF7A73CC1F435CD300D28FF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Jam/ViewController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73B71F435CD300D28FF8 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileController.h; path = Jam/UserViews/ProfileView/ProfileController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73B81F435CD300D28FF8 /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileController.m; path = Jam/UserViews/ProfileView/ProfileController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73BB1F435CD300D28FF8 /* SelectWinnerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectWinnerController.h; path = Jam/UserViews/SelectWinnerController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73BC1F435CD300D28FF8 /* SelectWinnerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectWinnerController.m; path = Jam/UserViews/SelectWinnerController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73BD1F435CD300D28FF8 /* SeshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeshController.h; path = Jam/UserViews/SeshController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73BE1F435CD300D28FF8 /* SeshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeshController.m; path = Jam/UserViews/SeshController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73BF1F435CD300D28FF8 /* SeshLeisureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeshLeisureController.h; path = Jam/UserViews/SeshLeisureController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73C01F435CD300D28FF8 /* SeshLeisureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeshLeisureController.m; path = Jam/UserViews/SeshLeisureController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73C31F435CD300D28FF8 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Session.h; path = Jam/ObjectClasses/Session.h; sourceTree = SOURCE_ROOT; };
+		FF7A73C41F435CD300D28FF8 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Session.m; path = Jam/ObjectClasses/Session.m; sourceTree = SOURCE_ROOT; };
+		FF7A73C51F435CD300D28FF8 /* SignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpController.h; path = Jam/UserViews/SignUpController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73C61F435CD300D28FF8 /* SignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpController.m; path = Jam/UserViews/SignUpController.m; sourceTree = SOURCE_ROOT; };
+		FF7A73C91F435CD300D28FF8 /* TutorialControllerMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialControllerMain.h; path = Jam/TutorialGroup/TutorialControllerMain.h; sourceTree = SOURCE_ROOT; };
+		FF7A73CA1F435CD300D28FF8 /* TutorialControllerMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialControllerMain.m; path = Jam/TutorialGroup/TutorialControllerMain.m; sourceTree = SOURCE_ROOT; };
+		FF7A73CB1F435CD300D28FF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Jam/UserViews/ViewController.h; sourceTree = SOURCE_ROOT; };
+		FF7A73CC1F435CD300D28FF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Jam/UserViews/ViewController.m; sourceTree = SOURCE_ROOT; };
 		FF7A73EB1F435ECF00D28FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Jam/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		FF7BE6101F7337460095E93C /* editBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = editBackground.jpg; sourceTree = "<group>"; };
-		FF82339B1F75A7DD00003585 /* ImageVideoUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageVideoUploader.m; path = Jam/ImageVideoUploader.m; sourceTree = SOURCE_ROOT; };
-		FF82339D1F75A7EF00003585 /* ImageVideoUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImageVideoUploader.h; path = Jam/ImageVideoUploader.h; sourceTree = SOURCE_ROOT; };
+		FF82339B1F75A7DD00003585 /* ImageVideoUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageVideoUploader.m; path = "Jam/Constants-Encrypt-DB/ImageVideoUploader.m"; sourceTree = SOURCE_ROOT; };
+		FF82339D1F75A7EF00003585 /* ImageVideoUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImageVideoUploader.h; path = "Jam/Constants-Encrypt-DB/ImageVideoUploader.h"; sourceTree = SOURCE_ROOT; };
 		FF83E7371F9F975300D19800 /* mapLegend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapLegend.png; sourceTree = "<group>"; };
 		FF84C12D1F96F17300C09A82 /* refreshMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshMap.png; sourceTree = "<group>"; };
 		FF84C13A1F983ED700C09A82 /* J add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J add.png"; sourceTree = "<group>"; };
@@ -231,12 +231,12 @@
 		FFEB7E261F7B40A8008D63E8 /* Action_Man_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man_Italic.ttf; sourceTree = "<group>"; };
 		FFEB7E271F7B40A8008D63E8 /* Action_Man_Shaded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man_Shaded.ttf; sourceTree = "<group>"; };
 		FFEB7E281F7B40A8008D63E8 /* Action_Man_Shaded_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man_Shaded_Italic.ttf; sourceTree = "<group>"; };
-		FFECEA251F86FCD50026E8D1 /* EncryptExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EncryptExt.h; path = Jam/EncryptExt.h; sourceTree = SOURCE_ROOT; };
-		FFECEA261F86FCD60026E8D1 /* EncryptExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EncryptExt.m; path = Jam/EncryptExt.m; sourceTree = SOURCE_ROOT; };
-		FFECEA281F86FCE70026E8D1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Jam/Constants.h; sourceTree = SOURCE_ROOT; };
-		FFECEA291F86FCE70026E8D1 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Jam/Constants.m; sourceTree = SOURCE_ROOT; };
-		FFECEA2B1F86FCF10026E8D1 /* DailyMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DailyMessage.h; path = Jam/DailyMessage.h; sourceTree = SOURCE_ROOT; };
-		FFECEA2C1F86FCF10026E8D1 /* DailyMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DailyMessage.m; path = Jam/DailyMessage.m; sourceTree = SOURCE_ROOT; };
+		FFECEA251F86FCD50026E8D1 /* EncryptExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EncryptExt.h; path = "Jam/Constants-Encrypt-DB/EncryptExt.h"; sourceTree = SOURCE_ROOT; };
+		FFECEA261F86FCD60026E8D1 /* EncryptExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EncryptExt.m; path = "Jam/Constants-Encrypt-DB/EncryptExt.m"; sourceTree = SOURCE_ROOT; };
+		FFECEA281F86FCE70026E8D1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "Jam/Constants-Encrypt-DB/Constants.h"; sourceTree = SOURCE_ROOT; };
+		FFECEA291F86FCE70026E8D1 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = "Jam/Constants-Encrypt-DB/Constants.m"; sourceTree = SOURCE_ROOT; };
+		FFECEA2B1F86FCF10026E8D1 /* DailyMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DailyMessage.h; path = "Jam/Alert-Message-Banners/DailyMessage.h"; sourceTree = SOURCE_ROOT; };
+		FFECEA2C1F86FCF10026E8D1 /* DailyMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DailyMessage.m; path = "Jam/Alert-Message-Banners/DailyMessage.m"; sourceTree = SOURCE_ROOT; };
 		FFFB6B2F1FA103B300CE0ACA /* DojoTutorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DojoTutorial.h; sourceTree = "<group>"; };
 		FFFB6B301FA103BB00CE0ACA /* DojoTutorial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DojoTutorial.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
@@ -253,11 +253,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B16F525200E93C0001ECFC5 /* User Views */ = {
+		6B270683200EA04700508991 /* UserViews */ = {
 			isa = PBXGroup;
 			children = (
-				FF7A73CB1F435CD300D28FF8 /* ViewController.h */,
+				6B270691200EA35000508991 /* InfoViews */,
+				6B270692200EA36B00508991 /* LogInViews */,
+				6B270693200EA37C00508991 /* ProfileView */,
+				6B27068F200EA32F00508991 /* MapViews */,
+				6B270690200EA34000508991 /* Marketplace */,
 				FF7A73CC1F435CD300D28FF8 /* ViewController.m */,
+				FF7A73CB1F435CD300D28FF8 /* ViewController.h */,
 				FF7A73A41F435CD300D28FF8 /* editProfileController.h */,
 				FF7A73A51F435CD300D28FF8 /* editProfileController.m */,
 				FF7A73BB1F435CD300D28FF8 /* SelectWinnerController.h */,
@@ -272,35 +277,11 @@
 				FF7A73C01F435CD300D28FF8 /* SeshLeisureController.m */,
 				FF4FF9371F71AFC300FA60AA /* VoteEntryController.h */,
 				FF4FF9361F71AFC300FA60AA /* VoteEntryController.m */,
-				6B16F52B200E9A1C001ECFC5 /* Map Views */,
-				6B16F52A200E9A02001ECFC5 /* InfoViews */,
-				6B16F527200E94AE001ECFC5 /* Log In Views */,
-				FFBFBFF91F67045600DEB6C0 /* ProfileView */,
 			);
-			name = "User Views";
+			path = UserViews;
 			sourceTree = "<group>";
 		};
-		6B16F526200E943C001ECFC5 /* Marketplace */ = {
-			isa = PBXGroup;
-			children = (
-				6BB059F11FE1A9510096E91A /* MarketplaceController.h */,
-				6BB059EF1FE1A94C0096E91A /* MarketplaceController.m */,
-			);
-			name = Marketplace;
-			sourceTree = "<group>";
-		};
-		6B16F527200E94AE001ECFC5 /* Log In Views */ = {
-			isa = PBXGroup;
-			children = (
-				FF7A73A01F435CD300D28FF8 /* CreateAccountController.h */,
-				FF7A73A11F435CD300D28FF8 /* CreateAccountController.m */,
-				FF7A73A91F435CD300D28FF8 /* LogInController.h */,
-				FF7A73AA1F435CD300D28FF8 /* LogInController.m */,
-			);
-			name = "Log In Views";
-			sourceTree = "<group>";
-		};
-		6B16F528200E9719001ECFC5 /* ObjectClasses */ = {
+		6B270686200EA0D900508991 /* ObjectClasses */ = {
 			isa = PBXGroup;
 			children = (
 				FF7A73981F435CD300D28FF8 /* Account.h */,
@@ -312,10 +293,25 @@
 				FF4FF93F1F71B02900FA60AA /* VideoEntry.h */,
 				FF4FF9401F71B02900FA60AA /* VideoEntry.m */,
 			);
-			name = ObjectClasses;
+			path = ObjectClasses;
 			sourceTree = "<group>";
 		};
-		6B16F529200E99D3001ECFC5 /* MenuViews */ = {
+		6B270687200EA0FC00508991 /* Constants-Encrypt-DB */ = {
+			isa = PBXGroup;
+			children = (
+				FFECEA281F86FCE70026E8D1 /* Constants.h */,
+				FFECEA291F86FCE70026E8D1 /* Constants.m */,
+				6BE04CD51FDDD54600CF8BD4 /* DataBaseCalls.h */,
+				6BE04CD31FDDD53F00CF8BD4 /* DataBaseCalls.m */,
+				FFECEA251F86FCD50026E8D1 /* EncryptExt.h */,
+				FFECEA261F86FCD60026E8D1 /* EncryptExt.m */,
+				FF82339D1F75A7EF00003585 /* ImageVideoUploader.h */,
+				FF82339B1F75A7DD00003585 /* ImageVideoUploader.m */,
+			);
+			path = "Constants-Encrypt-DB";
+			sourceTree = "<group>";
+		};
+		6B270689200EA1B700508991 /* MenuViews */ = {
 			isa = PBXGroup;
 			children = (
 				FF84C1431F98E5C200C09A82 /* MainMenuRight.h */,
@@ -323,32 +319,21 @@
 				FF4FF9351F71AFB300FA60AA /* MainMenuController.h */,
 				FF4FF9331F71AFAC00FA60AA /* MainMenuController.m */,
 			);
-			name = MenuViews;
+			path = MenuViews;
 			sourceTree = "<group>";
 		};
-		6B16F52A200E9A02001ECFC5 /* InfoViews */ = {
+		6B27068B200EA23200508991 /* TutorialGroup */ = {
 			isa = PBXGroup;
 			children = (
-				6B3F51401FB252EC00E24687 /* InfoViewController.h */,
-				6B3F51411FB252F900E24687 /* InfoViewController.m */,
-				6B4FC01A1FB9FD58007B32F1 /* MonthlyRewardsController.h */,
-				6B4FC0181FB9FD4B007B32F1 /* MonthlyRewardsController.m */,
-				6B82FAAE1FD649E800E0CFA0 /* SearchView.h */,
-				6B82FAAF1FD649F400E0CFA0 /* SearchView.m */,
+				FF7A73C91F435CD300D28FF8 /* TutorialControllerMain.h */,
+				FF7A73CA1F435CD300D28FF8 /* TutorialControllerMain.m */,
+				FFFB6B2F1FA103B300CE0ACA /* DojoTutorial.h */,
+				FFFB6B301FA103BB00CE0ACA /* DojoTutorial.m */,
 			);
-			name = InfoViews;
+			path = TutorialGroup;
 			sourceTree = "<group>";
 		};
-		6B16F52B200E9A1C001ECFC5 /* Map Views */ = {
-			isa = PBXGroup;
-			children = (
-				6BF4B21A1FD8542700D88FFF /* FilterView.h */,
-				6BF4B2181FD8541D00D88FFF /* FilterView.m */,
-			);
-			name = "Map Views";
-			sourceTree = "<group>";
-		};
-		6B16F52C200E9BEC001ECFC5 /* Alert/Message/Banners */ = {
+		6B27068D200EA25F00508991 /* Alert-Message-Banners */ = {
 			isa = PBXGroup;
 			children = (
 				FF4FF94F1F71B08900FA60AA /* AlertView.h */,
@@ -358,7 +343,72 @@
 				FF93BA061F8DAE5000C5BCB3 /* NavigationView.h */,
 				FF93BA071F8DAE5A00C5BCB3 /* NavigationView.m */,
 			);
-			name = Alert/Message/Banners;
+			path = "Alert-Message-Banners";
+			sourceTree = "<group>";
+		};
+		6B27068E200EA29D00508991 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FF94B1F71B05800FA60AA /* VideoTableCellController.h */,
+				FF4FF94C1F71B05800FA60AA /* VideoTableCellController.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		6B27068F200EA32F00508991 /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				6BF4B21A1FD8542700D88FFF /* FilterView.h */,
+				6BF4B2181FD8541D00D88FFF /* FilterView.m */,
+			);
+			path = MapViews;
+			sourceTree = "<group>";
+		};
+		6B270690200EA34000508991 /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				6BB059F11FE1A9510096E91A /* MarketplaceController.h */,
+				6BB059EF1FE1A94C0096E91A /* MarketplaceController.m */,
+			);
+			path = Marketplace;
+			sourceTree = "<group>";
+		};
+		6B270691200EA35000508991 /* InfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F51401FB252EC00E24687 /* InfoViewController.h */,
+				6B3F51411FB252F900E24687 /* InfoViewController.m */,
+				6B4FC01A1FB9FD58007B32F1 /* MonthlyRewardsController.h */,
+				6B4FC0181FB9FD4B007B32F1 /* MonthlyRewardsController.m */,
+				6B82FAAE1FD649E800E0CFA0 /* SearchView.h */,
+				6B82FAAF1FD649F400E0CFA0 /* SearchView.m */,
+			);
+			path = InfoViews;
+			sourceTree = "<group>";
+		};
+		6B270692200EA36B00508991 /* LogInViews */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A73A01F435CD300D28FF8 /* CreateAccountController.h */,
+				FF7A73A11F435CD300D28FF8 /* CreateAccountController.m */,
+				FF7A73A91F435CD300D28FF8 /* LogInController.h */,
+				FF7A73AA1F435CD300D28FF8 /* LogInController.m */,
+			);
+			path = LogInViews;
+			sourceTree = "<group>";
+		};
+		6B270693200EA37C00508991 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				6B27068E200EA29D00508991 /* CustomCell */,
+				FF7A73B71F435CD300D28FF8 /* ProfileController.h */,
+				FF7A73B81F435CD300D28FF8 /* ProfileController.m */,
+				FF4FF9311F71AF7900FA60AA /* ProfileVideosController.h */,
+				FF4FF9301F71AF7900FA60AA /* ProfileVideosController.m */,
+				6BF4B21D1FD8F62200D88FFF /* FriendListView.h */,
+				6BF4B21E1FD8F62900D88FFF /* FriendListView.m */,
+			);
+			path = ProfileView;
 			sourceTree = "<group>";
 		};
 		6BB059F21FE1B0710096E91A /* MarketPlacePictures */ = {
@@ -395,15 +445,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF0BBE2F1F5F2BF500A73F5F /* CustomCell */ = {
-			isa = PBXGroup;
-			children = (
-				FF4FF94B1F71B05800FA60AA /* VideoTableCellController.h */,
-				FF4FF94C1F71B05800FA60AA /* VideoTableCellController.m */,
-			);
-			name = CustomCell;
-			sourceTree = "<group>";
-		};
 		FF4FF9511F71B0B200FA60AA /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,13 +478,12 @@
 				FF6010611F439ADC00DF2220 /* Jam.entitlements */,
 				FF7A739A1F435CD300D28FF8 /* AppDelegate.h */,
 				FF7A739B1F435CD300D28FF8 /* AppDelegate.m */,
-				6B16F525200E93C0001ECFC5 /* User Views */,
-				6B16F526200E943C001ECFC5 /* Marketplace */,
-				6B16F528200E9719001ECFC5 /* ObjectClasses */,
-				6B16F529200E99D3001ECFC5 /* MenuViews */,
-				FF848DAB1F58595100EDDC8B /* TutorialGroup */,
-				6B16F52C200E9BEC001ECFC5 /* Alert/Message/Banners */,
-				FFAB934B1F7D8615004E4AA7 /* Constants/Encrypt/DB */,
+				6B270683200EA04700508991 /* UserViews */,
+				6B27068D200EA25F00508991 /* Alert-Message-Banners */,
+				6B27068B200EA23200508991 /* TutorialGroup */,
+				6B270689200EA1B700508991 /* MenuViews */,
+				6B270687200EA0FC00508991 /* Constants-Encrypt-DB */,
+				6B270686200EA0D900508991 /* ObjectClasses */,
 				FFC622A31F72E9B4004DE1E6 /* Images */,
 				FF4FF9511F71B0B200FA60AA /* Fonts */,
 				FF7A739D1F435CD300D28FF8 /* Base.lproj */,
@@ -475,17 +515,6 @@
 			path = Jam/Base.lproj;
 			sourceTree = SOURCE_ROOT;
 		};
-		FF848DAB1F58595100EDDC8B /* TutorialGroup */ = {
-			isa = PBXGroup;
-			children = (
-				FF7A73C91F435CD300D28FF8 /* TutorialControllerMain.h */,
-				FF7A73CA1F435CD300D28FF8 /* TutorialControllerMain.m */,
-				FFFB6B2F1FA103B300CE0ACA /* DojoTutorial.h */,
-				FFFB6B301FA103BB00CE0ACA /* DojoTutorial.m */,
-			);
-			name = TutorialGroup;
-			sourceTree = "<group>";
-		};
 		FF9DB5CE1FAA3BE800C48832 /* TutorialPictures */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,35 +529,6 @@
 				6BBA94E31FBBEC2800E88608 /* TutorialPicture9.png */,
 			);
 			path = TutorialPictures;
-			sourceTree = "<group>";
-		};
-		FFAB934B1F7D8615004E4AA7 /* Constants/Encrypt/DB */ = {
-			isa = PBXGroup;
-			children = (
-				FFECEA281F86FCE70026E8D1 /* Constants.h */,
-				FFECEA291F86FCE70026E8D1 /* Constants.m */,
-				6BE04CD51FDDD54600CF8BD4 /* DataBaseCalls.h */,
-				6BE04CD31FDDD53F00CF8BD4 /* DataBaseCalls.m */,
-				FFECEA251F86FCD50026E8D1 /* EncryptExt.h */,
-				FFECEA261F86FCD60026E8D1 /* EncryptExt.m */,
-				FF82339D1F75A7EF00003585 /* ImageVideoUploader.h */,
-				FF82339B1F75A7DD00003585 /* ImageVideoUploader.m */,
-			);
-			name = Constants/Encrypt/DB;
-			sourceTree = "<group>";
-		};
-		FFBFBFF91F67045600DEB6C0 /* ProfileView */ = {
-			isa = PBXGroup;
-			children = (
-				FF0BBE2F1F5F2BF500A73F5F /* CustomCell */,
-				FF7A73B71F435CD300D28FF8 /* ProfileController.h */,
-				FF7A73B81F435CD300D28FF8 /* ProfileController.m */,
-				FF4FF9311F71AF7900FA60AA /* ProfileVideosController.h */,
-				FF4FF9301F71AF7900FA60AA /* ProfileVideosController.m */,
-				6BF4B21D1FD8F62200D88FFF /* FriendListView.h */,
-				6BF4B21E1FD8F62900D88FFF /* FriendListView.m */,
-			);
-			name = ProfileView;
 			sourceTree = "<group>";
 		};
 		FFC622A31F72E9B4004DE1E6 /* Images */ = {
